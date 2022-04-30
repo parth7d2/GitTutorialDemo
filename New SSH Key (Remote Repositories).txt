@@ -1,0 +1,10 @@
+Open Git Bash.
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+tail ~/.ssh/id_rsa.pub
+ssh-rsa _______________________________________________________
+________________________copy code____________________________
+________________________________________________________ctrl+c
+
+past on github > SSH keys > Add new > Key > ctrl+v > Add SSH key
